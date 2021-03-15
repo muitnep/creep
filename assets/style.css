@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --dark-green:#0B2027;
+    --white:#F6F1D1;
+    --light-grey:rgba(246, 241, 209, 0.5);
+    --purple:rgba(255, 255, 255, 0.1);
+    --black-degrade:rgba(0, 0, 0, 0.1);
+    --grey: #46494C;
+    --dark-blue:#0B2027;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.todo-list {
+    background-color: var(--dark-green);
+    font-family: 'Space Mono', monospace;
+    padding: 1rem;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+.title {
+    border-bottom: 1px solid var(--light-grey);
+    font-size: 1.5rem;
+    font-family: 'BioRhyme', serif;
+    color: var(--white);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-input,
+.form-button {
+    border-radius: 0;
+    padding: .75rem;
+    font-size: .75rem;
+}
+
+.form-input {
+    outline: none;
+    background-color: var(--white);
+    border-color: var(--purple);
+}
+
+.form-button {
+    border:1px;
+    background: var(--white);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: .25rem;
+}
+
+.form-button:rover {
+    color:(var(--white));
+    background: var(--purple);
+}
+
+.list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.task {
+    background-color: var(--purple);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding: 1rem 3rem;
+}
+
+.check-button .delete-button {
+    background-color: var(--white);
+    border: none;
+    box-shadow: 0 0 8px var(--black-degrade);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.task.done .check-button {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.check-icon {
+    display: block;
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.task.done .check-icon {
+    background-color:var(--dark-blue);
+}
+
+.content {
+    margin: 0;
+}
+
+.task.done .content {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
